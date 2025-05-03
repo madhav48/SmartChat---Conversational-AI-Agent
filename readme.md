@@ -17,17 +17,21 @@ Make sure the following tools are installed:
 
 ### Step-by-Step Setup:
 
-1. **Unzip the Project Folder**
+1. **Colne the repository**
 
-   Extract the zip file, open **VSCode**, and open the **root directory** of the project (where `readme.md` and `app/` folder reside).
+  ```bash
+   git clone https://github.com/madhav48/SmartChat---Conversational-AI-Agent.git
+   ```
 
-2. **Create a Virtual Environment**
+   After cloning, open **VSCode**, and open the **root directory** of the project (where `readme.md` and `app/` folder reside).
+
+4. **Create a Virtual Environment**
 
    ```bash
    python -m venv .venv
    ```
 
-3. **Activate the Virtual Environment**
+5. **Activate the Virtual Environment**
 
    Run this in the terminal:
 
@@ -42,7 +46,7 @@ Make sure the following tools are installed:
    > ```
    > Then retry activating the environment.
 
-4. **Install Dependencies**
+6. **Install Dependencies**
 
    Inside the activated virtual environment, run:
 
@@ -50,7 +54,7 @@ Make sure the following tools are installed:
    pip install fastapi uvicorn gradio python-dotenv openai
    ```
 
-5. **Configure API Keys**
+7. **Configure API Keys**
 
    In the root directory, find the `.env` file and replace the placeholders (`...`) with your **OpenRouter API key**:
 
