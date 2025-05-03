@@ -25,13 +25,13 @@ Make sure the following tools are installed:
 
    After cloning, open **VSCode**, and open the **root directory** of the project (where `readme.md` and `app/` folder reside).
 
-4. **Create a Virtual Environment**
+2. **Create a Virtual Environment**
 
    ```bash
    python -m venv .venv
    ```
 
-5. **Activate the Virtual Environment**
+3. **Activate the Virtual Environment**
 
    Run this in the terminal:
 
@@ -46,7 +46,7 @@ Make sure the following tools are installed:
    > ```
    > Then retry activating the environment.
 
-6. **Install Dependencies**
+4. **Install Dependencies**
 
    Inside the activated virtual environment, run:
 
@@ -54,7 +54,7 @@ Make sure the following tools are installed:
    pip install fastapi uvicorn gradio python-dotenv openai
    ```
 
-7. **Configure API Keys**
+5. **Configure API Keys**
 
    In the root directory, find the `.env` file and replace the placeholders (`...`) with your **OpenRouter API key**:
 
